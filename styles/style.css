@@ -1,0 +1,126 @@
+/* Font styles */
+.montserrat> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Universal CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.head-pic {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: fit-content;
+    height: auto;
+    margin-right: 155px;
+    margin-top: 100px;
+}
+
+.p {
+    /* background-image: url(../images/shapes/Group\ 8450.png); */
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    height: 788px;
+
+}
+
+.p>img {
+    width: 600px;
+    height: 650px;
+}
+
+.extra {
+    position: absolute;
+    height: auto;
+    width: fit-content;
+    /* border: 2px solid blueviolet; */
+    top: 270px;
+    left: 730px;
+}
+
+.extra>img {
+    width: 500px;
+    height: 500px;
+}
+
+.head-disc {
+    margin-top: 220px;
+    margin-left: 100px;
+    width: 85%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.head-disc>h1 {
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 700;
+    /* line-height: 130%; */
+    /* letter-spacing: -2%; */
+    text-align: left;
+    color: rgb(87, 87, 87);
+}
+
+span {
+    background: linear-gradient(rgb(251, 162, 79), rgb(255, 30, 30));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.head-disc>p {
+    color: rgb(130, 130, 130);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -2%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.head-disc>button {
+    width: 192px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    padding: 24px 32px 24px 32px;
+    border-radius: 100px;
+
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    /* gradient */
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%, rgb(255, 30, 30) 144.985%);
+    border: none;
+    margin-top: 49px;
+}
+
+.head-disc>button>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
